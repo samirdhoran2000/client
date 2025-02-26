@@ -1,0 +1,42 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.news-bg-image{
+  background-image: url("/temp/image1.webp");
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover;       /* Scale the image to cover the element */
+  background-position: center;  /* Center the image */
+}
