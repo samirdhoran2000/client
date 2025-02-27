@@ -34,9 +34,10 @@
   animation-delay: 0.4s;
 }
 
-.news-bg-image{
-  background-image: url("/temp/image1.webp");
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-size: cover;       /* Scale the image to cover the element */
-  background-position: center;  /* Center the image */
+.logo {
+  /* filter: 
+    brightness(50%) 
+    sepia(100%) 
+    hue-rotate(170deg) 
+    saturate(600%); */
 }
